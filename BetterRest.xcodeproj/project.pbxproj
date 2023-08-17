@@ -14,6 +14,7 @@
 		4D7D94932A7043B400EEB1D9 /* BetterRestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D94922A7043B400EEB1D9 /* BetterRestTests.swift */; };
 		4D7D949D2A7043B400EEB1D9 /* BetterRestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D949C2A7043B400EEB1D9 /* BetterRestUITests.swift */; };
 		4D7D949F2A7043B400EEB1D9 /* BetterRestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D949E2A7043B400EEB1D9 /* BetterRestUITestsLaunchTests.swift */; };
+		4DE75BC82A8EB80400139F0B /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4DE75BC72A8EB80400139F0B /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4D7D94982A7043B400EEB1D9 /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7D949C2A7043B400EEB1D9 /* BetterRestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITests.swift; sourceTree = "<group>"; };
 		4D7D949E2A7043B400EEB1D9 /* BetterRestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DE75BC72A8EB80400139F0B /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4D7D94812A7043B300EEB1D9 /* BetterRestApp.swift */,
 				4D7D94832A7043B300EEB1D9 /* ContentView.swift */,
+				4DE75BC72A8EB80400139F0B /* SleepCalculator.mlmodel */,
 				4D7D94852A7043B400EEB1D9 /* Assets.xcassets */,
 				4D7D94872A7043B400EEB1D9 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE75BC82A8EB80400139F0B /* SleepCalculator.mlmodel in Sources */,
 				4D7D94842A7043B300EEB1D9 /* ContentView.swift in Sources */,
 				4D7D94822A7043B300EEB1D9 /* BetterRestApp.swift in Sources */,
 			);
